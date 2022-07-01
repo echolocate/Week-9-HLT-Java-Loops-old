@@ -10,7 +10,7 @@ public class guessingGame {
 	      
 	      //Generate random int value from 1 to 100
 	      int random_int = (int)Math.floor(Math.random()*(max-min+1)+min);
-	      System.out.println(random_int);
+	      // System.out.println(random_int);
 	      System.out.println("How old do you think I am?: ");
 	      while (userGuess == false) {
 	    	  int guess = sc.nextInt();
