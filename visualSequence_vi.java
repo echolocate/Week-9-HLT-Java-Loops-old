@@ -3,7 +3,10 @@ import java.util.ArrayList;
 public class visualSequence_vi {
 
 	public static void main(String[] args) {
-
+		// Pretty much the same as iv but instead of
+		// replacing the space with a star, replace with
+		// the string converted value of rows +1 (to take
+		// account of the rows index starting at 0 (I guess)
 		ArrayList<String> star = new ArrayList<String>();
 		int addStarRight = 4;
 		int addStarLeft = 4;
