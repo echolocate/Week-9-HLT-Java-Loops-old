@@ -5,14 +5,13 @@ public class guessingGame_Str {
 
 	public static void main(String[] args) {
 		
-		// I'm guessing (hah!), but you would have to do some
+		// I'm guessing (hah!), you would have to do some
 		// manipulation outside of the random number generator
 		// to define a range that starts above or below 0. So may not be
 		// as random it appears. It does do floats and doubles though.
 		// So may be more precise there, just not for my age guessing game
 		// unless you are that pedantic to want the age down to the nanosecond.
 		Random rand = new Random();
-	    // int min = 1;
 	    int upperbound = 100;
 	    boolean userGuess = false;	      
 	    Scanner sc = new Scanner(System.in);

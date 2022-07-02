@@ -16,7 +16,7 @@ public class Fibonacci {
 			// generate next fibonacci number.
 			fib = preFib + prePreFib;
 			System.out.print(fib + ", ");
-			// shift previous numbers to current
+			// shift previous numbers to current value
 			// for next go around.
 			prePreFib = preFib;
 			preFib = fib;

@@ -8,9 +8,12 @@ public class guessingGame {
 	      boolean userGuess = false;	      
 	      Scanner sc = new Scanner(System.in);
 	      
-	      //Generate random int value from 1 to 100
+	      //Generate random integer value from 1 to 100
 	      int random_int = (int)Math.floor(Math.random()*(max-min+1)+min);
-	      // System.out.println(random_int);
+	      // System.out.println(random_int); // for testing
+	      
+	      // Probably wrap this in a do..While for option of another game, 
+	      // I think one game is enough for anybody though.
 	      System.out.println("How old do you think I am?: ");
 	      while (userGuess == false) {
 	    	  int guess = sc.nextInt();
@@ -25,7 +28,7 @@ public class guessingGame {
 	    		  }
 	    	  
 	    	  else {
-	    		  System.out.println("Spot on !!! How did you guess ?");
+	    		  System.out.println("Spot on !!! You got there in the end...");
 	    		  userGuess = true;
 	    	  }
 	      }

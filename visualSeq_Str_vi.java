@@ -12,7 +12,7 @@ public class visualSeq_Str_vi {
 	// nine, the triangle appears wonky at the base due
 	// to ten taking up two 'spaces' instead of one,
 	// i.e 12 has two characters. Could use hexadecimal,
-	// but what happens after 15? Base Googol might work here.
+	// but what happens after 15? Base Googol ?
 	ArrayList<String> star = new ArrayList<String>();
 	
 	Scanner sc = new Scanner(System.in);

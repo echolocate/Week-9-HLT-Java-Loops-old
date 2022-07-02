@@ -10,7 +10,7 @@ public class leapYearStr {
 			String ifLeapYear = ((year % 400 == 0) 
 					|| ((year % 4 == 0)) && (year % 100 != 0)) 
 					? " is a Leap Year." 
-							: " is NOT a Leap Year.";
+					: " is NOT a Leap Year.";
 			System.out.println(year + ifLeapYear);
 		}
 	}
